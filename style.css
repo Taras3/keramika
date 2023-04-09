@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+}
+#panel{
+    background: white;
+    width: 120px;
+    height: 330px;
+    position: absolute;
+    left: 30px;
+    top: 30px;
+    padding: 15px;
+    z-index: 9999;
+}
+#chous{
+    width: 90px;
+    height: 90px;
+    background: blue;
+}
+#chous1{
+    width: 90px;
+    height: 90px;
+    background: yellow;
+}
+#chous2{
+    width: 90px;
+    height: 90px;
+    background: orange;
+}
+#chous, #chous1, #chous2:hover{
+    cursor: pointer;
+}
